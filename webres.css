@@ -1,0 +1,59 @@
+@media only screen and (max-width:400px){
+   
+    .container {
+        width: 100%;
+        
+    }
+    .flex-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-i{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .intro{
+            text-align: center;
+        }
+       
+    .social-icon{
+        text-align: center;
+    }
+    .flec{
+        justify-content: center;
+    }
+    .myimg {
+      
+    }
+    
+    .fullbanner{
+        display: flex;
+        flex-direction: column;
+    }
+    .rat-flex{
+        display: flex;
+       flex-direction: column;
+    }
+    
+    
+    
+    .margtop{
+        margin-top: 20px;
+    }
+    .fl{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    
+        
+        
+        
+}
+
+    
