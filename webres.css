@@ -47,8 +47,22 @@
         flex-direction: column;
     }
     
-    
-    
+    .newflex{
+        flex-direction: column;
+        
+     }
+     .p-collection {
+        grid-template-columns: repeat(1,1fr);
+        
+        
+        }
+        .popular-collection{
+            
+            grid-template-columns: repeat(1,1fr);
+            
+            
+            
+         }
     
     
         

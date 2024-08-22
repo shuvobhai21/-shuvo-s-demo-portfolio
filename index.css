@@ -101,6 +101,7 @@ margin: 0 auto;
     justify-content: space-between;
     width: 1040px;
     
+    
 }
 .myimg{
     border-radius: 50%;
@@ -203,4 +204,47 @@ color: #ffffff;
     padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 15px;
+}
+
+/* new */
+.p-collection {
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ 
+ 
+ }
+ .s-collec{
+    border-radius: 5px;
+    box-shadow:0px 0px 1px 1px white;
+    padding: 15px;
+
+ }
+ .c-img{
+    width: 100%;
+    border-radius: 5px;   
+ }
+ .newflex{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    
+    
+ }
+ .ss-c{
+    border-radius: 5px;
+    box-shadow:0px 0px 5px 1px white;
+    padding: 15px;
+    width: fit-content;
+ }
+.fontfamily{
+    font: bolder;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #cabebe57;
+    background-color:rgba(255, 255, 255, 0);
 }
