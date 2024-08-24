@@ -47,14 +47,14 @@ const imageArray = [
 
 function handleShow(){
     const cardContainer = document.getElementById("cards");
-    console.log("click");
+    console.log("click",cardContainer);
 
     for(const item of imageArray){
         const createDiv = document.createElement("div");
         createDiv.innerHTML =`<img src="${item.url}">`;
         console.log(createDiv);
         cardContainer.appendChild(createDiv);
-        createDiv.classList.add(" popular-collection ss-c");
+        createDiv.classList.add(" popular-collection ss-c ");
 
     }
 
