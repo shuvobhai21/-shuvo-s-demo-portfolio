@@ -31,10 +31,12 @@
     .fullbanner{
         display: flex;
         flex-direction: column;
+        
     }
     .rat-flex{
         display: flex;
        flex-direction: column;
+       
     }
     
     
@@ -45,20 +47,28 @@
     .fl{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     
     .newflex{
+        display: flex;
         flex-direction: column;
+        width: 100%;
         
      }
      .p-collection {
-        grid-template-columns: repeat(1,1fr);
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+        width: 100%;
         
         
         }
         .popular-collection{
+            display: grid;
             
-            grid-template-columns: repeat(1,1fr);
+            grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+            width: 100%;
+            
             
             
             
